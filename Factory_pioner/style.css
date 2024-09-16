@@ -1,0 +1,434 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Source Sans 3', sans-serif;
+}
+/*HEADER*/
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrap-head{
+    display: flex;
+    justify-content: center;
+}
+.wrapper-header{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    align-items: center;
+    margin-top: 1.667vw;
+    margin-bottom: 1.667vw;
+}
+.dop_header{
+    display: flex;
+}
+.logo{
+    width: 180px;
+    height: 38px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_email{
+    color: var(--dark, #333);
+    text-align: right;
+    /* second-text */
+    font-family: Source Sans 3;
+    font-size: 0.972vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+    margin-top: 0.5vw;
+}
+.email{
+    color: var(--accent, #607CE6);
+    text-align: right;
+    font-family: Source Sans 3;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-top: 0.5vw;
+}
+.telephone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+}
+.text_telephone{
+    color: var(--dark, #333);
+    text-align: right;
+    
+    /* second-text */
+    font-family: Source Sans 3;
+    font-size: 0.972vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+    margin-top: 0.5vw;
+}
+.telephone1{
+    color: var(--accent, #607CE6);
+    text-align: right;
+    font-family: Source Sans 3;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0.5vw;
+}
+.telephone-text{
+    color: var(--accent, #607CE6);
+    font-family: Source Sans 3;
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    text-transform: uppercase;
+}
+.hr-head{
+    width: 90vw;
+}
+.text-nav-header{
+    color: var(--dark, #333);
+
+    /* main-text */
+    font-family: Source Sans 3;
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+}
+.navig{
+    margin-top: 0.833vw;
+}
+.navig>nav>ul{
+    width: 77vw;
+    display: flex;
+    justify-content: space-between;
+}
+.recall{
+    display: flex;
+    margin-left: 3vw;
+}
+.recall-img{
+    width: 1.111vw;
+    height: 1.111vw;
+    flex-shrink: 0;
+    margin-right: 0.5vw;
+}
+.navig>nav{
+    display: flex;
+}
+/*PAGE1*/
+.wrapper-page1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page1-img{
+    display: flex;
+    width: 90vw;
+    height: 33vw;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-bottom: 5.556vw;
+}
+h1{
+    width: 40vw;
+    color: var(--dark, #333);
+    /* main-title */
+    font-family: Source Sans 3;
+    font-size: 4.167vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 72px */
+}
+.text-page1{
+    width: 90vw;
+    flex-shrink: 0;
+    display: flex;
+    margin-top: 5.556vw;
+    height: auto;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+.text-p-page1{
+    color: var(--dark, #333);
+
+    /* main-text */
+    font-family: Source Sans 3;
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    width: 30vw;
+    height: 2vw;
+    flex-shrink: 0;
+}
+
+/*page2*/
+.page2{
+    display: flex;
+    justify-content: center;
+}
+.wrapper-page2{
+    width: 90vw;
+}
+h2{
+    color: var(--dark, #333);
+
+    /* second-title */
+    font-family: Source Sans 3;
+    font-size: 3.333vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+    margin-bottom: 32px;
+}
+.text-page2{
+    display: flex;
+    justify-content: space-between;
+}
+.text-page2-1-1{
+    margin-bottom: 24px;
+}
+.text-page2-1{
+    color: var(--dark, #333);
+    font-family: Source Sans 3;
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    width: 42vw;
+}
+.text-page2-2{
+    color: var(--dark, #333);
+    font-family: Source Sans 3;
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    width: 42vw;
+}
+.img-page2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5.556vw;
+    margin-top: 32px;
+}
+.page2-img1{
+    width: 42vw;
+    height: 25vw;
+    flex-shrink: 0;
+
+}
+.page2-img2{
+    width: 42vw;
+    height: 25vw;
+    flex-shrink: 0;
+}
+/*page3*/
+.page3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5.556vw;
+}
+.wrapper-page3{
+    width: 90vw;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    height: 63vw;
+}
+.card{
+    width: 28.389vw;
+    height: 30.208vw;
+    flex-shrink: 0;
+    background: var(--light-gray, #F5F5F5);
+}
+.img-card{
+    height: 16vw;
+}
+.text-card-1{
+    color: var(--dark, #333);
+    font-family: Source Sans 3;
+    font-size: 1.944vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 33.6px */
+    margin-left: 1.667vw;
+    margin-top: 8vw;
+}
+.text-card{
+    color: var(--accent, #607CE6);
+    font-family: Source Sans 3;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+    margin-left: 1.667vw;
+    margin-top: 1vw;
+}
+.card-img1{
+    width: 13.889vw;
+    height: 13.472vw;
+    flex-shrink: 0;
+    margin-top: 2.222vw;
+    margin-left: 1.667vw;
+}
+.card-img2{
+    width: 13.889vw;
+    height: 7.77vw;
+    flex-shrink: 0;   
+    margin-top: 3.819vw;
+    margin-left: 1.667vw;
+}
+.card-img3{
+    width: 13.889vw;
+    height: 10.972vw;
+    flex-shrink: 0;
+    margin-top: 2.222vw;
+    margin-left: 1.667vw;
+}
+.card-img4{
+    width: 13.889vw;
+    height: 10.347vw;
+    flex-shrink: 0;
+    margin-top: 2.222vw;
+    margin-left: 1.667vw;
+}
+.card-img5{
+    width: 13.889vw;
+    height: 9.792vw;
+    flex-shrink: 0;
+    margin-top: 2.222vw;
+    margin-left: 1.667vw;
+}
+.card-img6{
+    width: 13.889vw;
+    height: 9.583vw;
+    flex-shrink: 0;
+    margin-top: 2.222vw;
+    margin-left: 1.667vw;
+}
+/*PAGE4*/
+.page4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5.556vw;
+}
+.wrapper-page4{
+    width: 90vw;
+}
+.cards-page4{
+    display: flex;
+    justify-content: space-between;
+}
+.img-page4{
+    width: 28vw;
+    height: 20vw;
+    flex-shrink: 0;
+}
+.card-page4{
+    width: 28vw;
+    height: 30vw;
+    flex-shrink: 0;
+    background: var(--light-gray, #F5F5F5);
+}
+.text-page4{
+    color: var(--dark, #333);
+    font-family: Source Sans 3;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    padding: 1.111vw;
+}
+.text-page4-link{
+    color: var(--accent, #607CE6);
+
+    /* main-text */
+    font-family: Source Sans 3;
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    margin-left: 1.111vw;
+    margin-top: 2vw;
+}
+/*FOOTER*/
+footer{
+    background: var(--dark, #333);
+    display: flex;
+    justify-content: center;
+
+}
+.wrap-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper-footer{
+    display: flex;
+    width: 90vw;
+}
+.logo-footer{
+    margin-top: 2.917vw;
+}
+.text-nav-footer{
+    color: var(--light, #FFF);
+
+    /* main-text */
+    font-family: Source Sans 3;
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+}
+.nav-footer-1>ul>li{
+    margin-bottom: 1.667vw;
+}
+.nav-footer-2>ul>li{
+    margin-bottom: 1.667vw;
+}
+.nav-footer-3>ul>li{
+    margin-bottom: 1.667vw;
+}
+.navig-footer{
+    display: flex;
+
+    margin-top: 2.917vw;
+}
+.nav-footer-1{
+    margin-left: 40.167vw;
+}
+.nav-footer-2{
+    margin-left: 6.319vw;
+}
+.nav-footer-3{
+    margin-left: 3.958vw;
+}
+.data-footer{
+    color: var(--light, #FFF);
+    font-family: Source Sans 3;
+    font-size: 0.972vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+    margin-top: 5.069vw;
+    margin-bottom: 1.667vw;
+}
